@@ -10,30 +10,28 @@ namespace Daily_Report
     {
         static void Main(string[] args)
         {
-            int pgNum = 0;
-            bool yOrn = true;
-            int hours = 0;
-            Console.WriteLine("The Tech Academy.\n\nStudent Daily Report.\n\n");
-            Console.WriteLine("What is your name?\n");
-            Console.ReadLine().ToUpper();
-            Console.WriteLine();
+            
+            Console.WriteLine("The Tech Academy.\n\nStudent Daily Report.\n\nWhat is your name?\n");
+            string usrName = Console.ReadLine();
+            
             Console.WriteLine("What course are you on?\n");
-            Console.ReadLine().ToUpper();
-            Console.WriteLine();
+            string courseName = Console.ReadLine();
+           
             Console.WriteLine("What page number?\n");
-            pgNum = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine();
-            Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false\"\n");
-            yOrn = Convert.ToBoolean(Console.ReadLine());
-            Console.WriteLine();
+            int pgNum = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Do you need help with anything? Please answer \"yes\" or \"no\"\n");
+            bool yOrn = Convert.ToBoolean(Console.ReadLine());
+            
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics.\n");
-            Console.ReadLine();
-            Console.WriteLine();
-            Console.WriteLine("How man hours did you study today?");
-            hours = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine();
+            string feedback = Console.ReadLine();
+            
+            Console.WriteLine("How man hours did you study today?\n");
+            int hours = Convert.ToInt32(Console.ReadLine());
+            
             Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
             Console.ReadLine();
+            
 
         }
     }
