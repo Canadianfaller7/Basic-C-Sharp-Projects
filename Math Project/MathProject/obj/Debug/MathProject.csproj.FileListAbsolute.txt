@@ -1,0 +1,8 @@
+D:\GitHub\Basic-C-Sharp-Projects\Math Project\MathProject\bin\Debug\MathProject.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\Math Project\MathProject\bin\Debug\MathProject.exe
+D:\GitHub\Basic-C-Sharp-Projects\Math Project\MathProject\bin\Debug\MathProject.pdb
+D:\GitHub\Basic-C-Sharp-Projects\Math Project\MathProject\obj\Debug\MathProject.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\Math Project\MathProject\obj\Debug\MathProject.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\Math Project\MathProject\obj\Debug\MathProject.exe
+D:\GitHub\Basic-C-Sharp-Projects\Math Project\MathProject\obj\Debug\MathProject.pdb
+D:\GitHub\Basic-C-Sharp-Projects\Math Project\MathProject\obj\Debug\MathProject.csproj.AssemblyReference.cache

@@ -1,0 +1,8 @@
+D:\GitHub\Basic-C-Sharp-Projects\MathAndComparisionOperators\MathAndComparisionOperators\bin\Debug\MathAndComparisionOperators.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\MathAndComparisionOperators\MathAndComparisionOperators\bin\Debug\MathAndComparisionOperators.exe
+D:\GitHub\Basic-C-Sharp-Projects\MathAndComparisionOperators\MathAndComparisionOperators\bin\Debug\MathAndComparisionOperators.pdb
+D:\GitHub\Basic-C-Sharp-Projects\MathAndComparisionOperators\MathAndComparisionOperators\obj\Debug\MathAndComparisionOperators.csproj.AssemblyReference.cache
+D:\GitHub\Basic-C-Sharp-Projects\MathAndComparisionOperators\MathAndComparisionOperators\obj\Debug\MathAndComparisionOperators.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\MathAndComparisionOperators\MathAndComparisionOperators\obj\Debug\MathAndComparisionOperators.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\MathAndComparisionOperators\MathAndComparisionOperators\obj\Debug\MathAndComparisionOperators.exe
+D:\GitHub\Basic-C-Sharp-Projects\MathAndComparisionOperators\MathAndComparisionOperators\obj\Debug\MathAndComparisionOperators.pdb

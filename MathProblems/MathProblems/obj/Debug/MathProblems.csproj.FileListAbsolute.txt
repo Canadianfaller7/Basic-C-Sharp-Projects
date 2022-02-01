@@ -1,0 +1,8 @@
+D:\GitHub\Basic-C-Sharp-Projects\MathProblems\MathProblems\bin\Debug\MathProblems.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\MathProblems\MathProblems\bin\Debug\MathProblems.exe
+D:\GitHub\Basic-C-Sharp-Projects\MathProblems\MathProblems\bin\Debug\MathProblems.pdb
+D:\GitHub\Basic-C-Sharp-Projects\MathProblems\MathProblems\obj\Debug\MathProblems.csproj.AssemblyReference.cache
+D:\GitHub\Basic-C-Sharp-Projects\MathProblems\MathProblems\obj\Debug\MathProblems.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\MathProblems\MathProblems\obj\Debug\MathProblems.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\MathProblems\MathProblems\obj\Debug\MathProblems.exe
+D:\GitHub\Basic-C-Sharp-Projects\MathProblems\MathProblems\obj\Debug\MathProblems.pdb
