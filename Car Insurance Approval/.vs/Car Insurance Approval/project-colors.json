@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0a15e798-7366-4310-a27e-09911f022f8a": {
+      "ProjectGuid": "0a15e798-7366-4310-a27e-09911f022f8a",
+      "DisplayName": "Car Insurance Approval",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
