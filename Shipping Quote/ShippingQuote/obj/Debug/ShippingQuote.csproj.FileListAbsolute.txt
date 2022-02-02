@@ -1,0 +1,8 @@
+D:\GitHub\Basic-C-Sharp-Projects\Shipping Quote\ShippingQuote\bin\Debug\ShippingQuote.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\Shipping Quote\ShippingQuote\bin\Debug\ShippingQuote.exe
+D:\GitHub\Basic-C-Sharp-Projects\Shipping Quote\ShippingQuote\bin\Debug\ShippingQuote.pdb
+D:\GitHub\Basic-C-Sharp-Projects\Shipping Quote\ShippingQuote\obj\Debug\ShippingQuote.csproj.AssemblyReference.cache
+D:\GitHub\Basic-C-Sharp-Projects\Shipping Quote\ShippingQuote\obj\Debug\ShippingQuote.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\Shipping Quote\ShippingQuote\obj\Debug\ShippingQuote.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\Shipping Quote\ShippingQuote\obj\Debug\ShippingQuote.exe
+D:\GitHub\Basic-C-Sharp-Projects\Shipping Quote\ShippingQuote\obj\Debug\ShippingQuote.pdb
