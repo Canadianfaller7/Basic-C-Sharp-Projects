@@ -1,8 +1,0 @@
-D:\GitHub\Basic-C-Sharp-Projects\Car Insurance Approval\CarInsuranceApproval\bin\Debug\CarInsuranceApproval.exe.config
-D:\GitHub\Basic-C-Sharp-Projects\Car Insurance Approval\CarInsuranceApproval\bin\Debug\CarInsuranceApproval.exe
-D:\GitHub\Basic-C-Sharp-Projects\Car Insurance Approval\CarInsuranceApproval\bin\Debug\CarInsuranceApproval.pdb
-D:\GitHub\Basic-C-Sharp-Projects\Car Insurance Approval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.csproj.AssemblyReference.cache
-D:\GitHub\Basic-C-Sharp-Projects\Car Insurance Approval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.csproj.SuggestedBindingRedirects.cache
-D:\GitHub\Basic-C-Sharp-Projects\Car Insurance Approval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.csproj.CoreCompileInputs.cache
-D:\GitHub\Basic-C-Sharp-Projects\Car Insurance Approval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.exe
-D:\GitHub\Basic-C-Sharp-Projects\Car Insurance Approval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.pdb
