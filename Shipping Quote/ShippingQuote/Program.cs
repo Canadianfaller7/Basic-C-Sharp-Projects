@@ -34,7 +34,7 @@ namespace ShippingQuote
             else // else take the total height, width, and length multiplied together and then multiply that by the weight of the package and take that number and divide by 100 for the total estimated shipping cost of the entire package
             {
                 int total = (pkgHeight * pkgWidth * pkgLength * pkgWeight) / 100;
-                Console.WriteLine("\nYour estimated total for shipping this package is: $" + total + ".00\nThank you!");
+                Console.WriteLine("\nYour estimated total for shipping this package is: $" + total + ".00\n\nThank you!");
                 Console.ReadLine(); // show the writeLine statement on screen
             }
 

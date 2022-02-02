@@ -20,7 +20,7 @@ namespace Car_Insurance_Approval
             int tickets = Convert.ToInt32(Console.ReadLine()); // we ask user how many tickets they have and save it into an int var
 
             Console.WriteLine("\nQualified?\n");
-            bool passedOrNot = (age >= 15 && dui == false && tickets <= 3);
+            bool passedOrNot = (age > 15 && dui == false && tickets <= 3);
             /* here we use boolean logic to check and make sure the age is 15yr old or older, user has no dui's and their tickets are 3 or less*/
             Console.WriteLine(passedOrNot); // then we print the result here
             Console.ReadLine(); // this displays it unil a key is hit
