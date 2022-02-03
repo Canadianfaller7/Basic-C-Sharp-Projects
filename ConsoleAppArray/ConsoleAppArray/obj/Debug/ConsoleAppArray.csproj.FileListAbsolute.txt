@@ -1,0 +1,7 @@
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\bin\Debug\ConsoleAppArray.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\bin\Debug\ConsoleAppArray.exe
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\bin\Debug\ConsoleAppArray.pdb
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.exe
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleAppArray\ConsoleAppArray\obj\Debug\ConsoleAppArray.pdb

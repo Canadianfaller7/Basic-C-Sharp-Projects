@@ -1,0 +1,8 @@
+D:\GitHub\Basic-C-Sharp-Projects\Arrays and Lists\Arrays and Lists\bin\Debug\Arrays and Lists.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\Arrays and Lists\Arrays and Lists\bin\Debug\Arrays and Lists.exe
+D:\GitHub\Basic-C-Sharp-Projects\Arrays and Lists\Arrays and Lists\bin\Debug\Arrays and Lists.pdb
+D:\GitHub\Basic-C-Sharp-Projects\Arrays and Lists\Arrays and Lists\obj\Debug\Arrays and Lists.csproj.AssemblyReference.cache
+D:\GitHub\Basic-C-Sharp-Projects\Arrays and Lists\Arrays and Lists\obj\Debug\Arrays and Lists.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\Arrays and Lists\Arrays and Lists\obj\Debug\Arrays and Lists.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\Arrays and Lists\Arrays and Lists\obj\Debug\Arrays and Lists.exe
+D:\GitHub\Basic-C-Sharp-Projects\Arrays and Lists\Arrays and Lists\obj\Debug\Arrays and Lists.pdb
