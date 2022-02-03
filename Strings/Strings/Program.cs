@@ -24,8 +24,12 @@ namespace Strings
             //Console.WriteLine(name);
             //Console.ReadLine();
 
-            //string name = "Terran";
-            //name = "Joe";
+            string name = "Terran";
+            string description = name + ", is my best friend and is the one who helped me get into coding";
+            string hobbies = description + ".\nWe both love skating, coding, playing chess, and building gameboys together.\n";
+            Console.WriteLine(hobbies);
+
+        
 
             StringBuilder sb = new StringBuilder();
             sb.Append("My name is Spencer, ");
