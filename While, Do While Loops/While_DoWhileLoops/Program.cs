@@ -52,7 +52,9 @@ namespace While_DoWhileLoops
             int day = Convert.ToInt32(Console.ReadLine());
             bool dayGuessed = false;
 
-            while (!dayGuessed)
+            while (!dayGuessed) // this is a while loop withh a switch statement inside it telling the user to guess a number and it will print a day and if they guess the number right it will tell them the day I wanted them to guess
+                // difference between this while loop and the do while loop above is, this one won't print the statement if the user guesses the date first try, it won't go through the rest of the 
+                // cases and loop. As where the do while loop will print the statement still after the first guess and then move outside of the loop to the next thing in the program.
             {
                 switch (day)
                 {
