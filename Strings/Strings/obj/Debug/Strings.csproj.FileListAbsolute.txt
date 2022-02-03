@@ -1,0 +1,8 @@
+D:\GitHub\Basic-C-Sharp-Projects\Strings\Strings\bin\Debug\Strings.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\Strings\Strings\bin\Debug\Strings.exe
+D:\GitHub\Basic-C-Sharp-Projects\Strings\Strings\bin\Debug\Strings.pdb
+D:\GitHub\Basic-C-Sharp-Projects\Strings\Strings\obj\Debug\Strings.csproj.AssemblyReference.cache
+D:\GitHub\Basic-C-Sharp-Projects\Strings\Strings\obj\Debug\Strings.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\Strings\Strings\obj\Debug\Strings.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\Strings\Strings\obj\Debug\Strings.exe
+D:\GitHub\Basic-C-Sharp-Projects\Strings\Strings\obj\Debug\Strings.pdb
