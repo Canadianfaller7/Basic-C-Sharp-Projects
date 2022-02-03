@@ -40,11 +40,44 @@ namespace MathAndComparisionOperators
             //Console.WriteLine(trueOrFalse.ToString());
             //Console.ReadLine();
 
-            int roomTemp = 70;
-            int currentTemp = 70;
+            //int roomTemp = 70;
+            //int currentTemp = 70;
 
-            bool isWarm = currentTemp == roomTemp;
-            Console.WriteLine(isWarm);
+            //bool isWarm = currentTemp == roomTemp;
+            //Console.WriteLine(isWarm);
+
+            /* this is a switch statement, kinda like an if else statement. Here we get user to input a number and whatever number that gets
+             put in between 1-7 will print out a day associated with that number. If they don't do a number they get told to try again and the 
+            program will end*/
+            Console.WriteLine("Please enter a number of 1-7 to print a day of the week:\n");
+            int day = Convert.ToInt32(Console.ReadLine());
+            switch (day)
+            {
+                case 1:
+                    Console.WriteLine("\nSunday");
+                    break;
+                case 2:
+                    Console.WriteLine("\nMonday");
+                    break;
+                case 3:
+                    Console.WriteLine("\nTuesday");
+                    break;
+                case 4:
+                    Console.WriteLine("\nWednesday");
+                    break;
+                case 5:
+                    Console.WriteLine("\nThursday");
+                    break;
+                case 6:
+                    Console.WriteLine("\nFriday");
+                    break;
+                case 7:
+                    Console.WriteLine("\nSaturday");
+                    break;
+                default:
+                    Console.WriteLine("\nYou didn't enter a number, please try again.");
+                    break;
+            }
 
 
             Console.ReadLine();
