@@ -41,18 +41,21 @@ namespace ConsoleApp
 
             // PART 4 OF ASSIGNMENT-------------
 
+
+            // list of colors
             List<string> colorList = new List<string>() { "blue", "white", "red", "green", "purple", "yellow", "orange", "black", "teal", "maroon", "gold", "pink", "brown" };
 
+            // make this false so we can go through our while loop first
             bool isGuessed = false;
             while (!isGuessed)
             {
                 Console.WriteLine("\nPut in your favorite color to see if it is on the list of colors:\n");
-                string usrColor = Console.ReadLine();
-                bool colorFound = false;
+                string usrColor = Console.ReadLine(); // get users answer and save it in a var
+                bool colorFound = false; // make another bool to check all colors
 
                 // get index from colorList
 
-                int index = colorList.FindIndex(a => a.Contains(usrColor));
+                int index = colorList.FindIndex(a => a.Contains(usrColor)); // this will get the index of the value user put in
 
                 // loop through colorList for usrColor
 
@@ -60,9 +63,9 @@ namespace ConsoleApp
                 {
                     if (colorList[c] == usrColor)
                     {
-                        Console.WriteLine("\nThe index of the color you chose is: " + colorList.FindIndex(a => a.Contains(usrColor)) + ", It is apart of our list!\n");
-                        colorFound = true;
-                        isGuessed = true;
+                        Console.WriteLine("\nThe index of the color you chose is: " + colorList.FindIndex(a => a.Contains(usrColor)) + ", It is apart of our list!\n"); // telling user we found their fav color at index whatever
+                        colorFound = true; // now this is true, loop will stop
+                        isGuessed = true; // same as above
                     }
                 }
                 // Tells user item isn't found
@@ -73,7 +76,7 @@ namespace ConsoleApp
 
             List<string> carBrands = new List<string>() { "bmw", "chevy", "ford", "audi", "vw", "honda", "toyota", "mercedes", "subaru", "porsche", "ferrari", "lamborghini", "bugati", "mcLaren", "ford", "chevy", "toyota" };
 
-            bool isRight = false;
+            bool isRight = false; // same concept as above, have this as false to go through loop first
             while (!isRight)
             {
                 Console.WriteLine("\nPut in your favorite car brand:\n");
@@ -86,7 +89,7 @@ namespace ConsoleApp
                 {
                     if (carBrands[c] == usrCarBrand)
                     {
-                        Console.WriteLine("\nThe brand of car you chose is at index:" + c + ", It is apart of our list!\n");
+                        Console.WriteLine("\nThe brand of car you chose is at index:" + c + ", It is apart of our list!\n"); // this is how we tell the person we found their car, and this line will print twice if there are duplicates and tell us the indexes(indicies of them)
                         carBrandFound = true;
                         isRight = true;
                     }
@@ -98,21 +101,21 @@ namespace ConsoleApp
                 // PART 6 OF ASSIGNMENT
 
             List<string> weatherList = new List<string>() { "sunny", "rainy", "snowy", "windy", "foggy", "sunny", "wet", "rainy", "wet", "icy" };
-            List<string> newWeatherList = new List<string>();
+            List<string> newWeatherList = new List<string>(); // this will be used during the loop to store new info
 
             foreach (string weather in weatherList)
             {
                 if (newWeatherList.Contains(weather))
                 {
-                    Console.WriteLine($"\n{weather}: has already appeared in the list.\n");
+                    Console.WriteLine($"\n{weather}: has already appeared in the list.\n"); // this says if the blank list contains anything from the weatherList then print this
                 }
                 else
                 {
-                    newWeatherList.Add(weather);
-                    Console.WriteLine($"\n{weather}: has not appeared in the list.\n");
+                    newWeatherList.Add(weather); // if nothing is in the newList then add the items from the other list with no duplicates
+                    Console.WriteLine($"\n{weather}: has not appeared in the list.\n"); // tells people nothing from our first list has appeared in the new list yet
                 }
             }
-            Console.WriteLine("List of weather types with no duplicates: {0}", string.Join(", ", newWeatherList));
+            Console.WriteLine("List of weather types with no duplicates: {0}", string.Join(", ", newWeatherList)); // show the new list and will get rid of any duplicates that are in the first list
 
 
             Console.ReadLine();
