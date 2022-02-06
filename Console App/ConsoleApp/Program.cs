@@ -13,13 +13,13 @@ namespace ConsoleApp
 
             // PART 1 OF ASSIGNMENT
 
-            string[] txtArray = { "Hello there! Today we are going to iterate through some code.", "What do you like to do?", "We will get some user input and add it to our array.", "Have a wonderful day!" };
-            Console.WriteLine("Please input some text tha you would like to add to the end of my sentence I created:\n");
-            string usrInput = Console.ReadLine();
+            string[] txtArray = { "Here is a random sentence. Here is the text you wrote:", "Black", "I love coding.", "Have a wonderful day!" }; // a string array of random text
+            Console.WriteLine("Please input some text tha you would like to add to the end of the sentences I have created created:\n");
+            string usrInput = Console.ReadLine(); // save user input
 
-            foreach (string txt in txtArray)
+            foreach (string txt in txtArray) // iterate through the array 
             {
-                Console.WriteLine(txt + " " + usrInput);
+                Console.WriteLine(txt + " " + usrInput); // add the users text at the end of each string inside the array and display it
             }
 
             // PART 2 & 3 OF ASSIGNMENT
@@ -27,7 +27,7 @@ namespace ConsoleApp
             int num1 = 0;
             int num2 = 0;
 
-            while (num1 < 10)
+            while (num1 < 10) // just a while loop that will print 
             {
                 Console.WriteLine(num1);
                 num1++;
