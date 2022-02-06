@@ -27,13 +27,13 @@ namespace ConsoleApp
             int num1 = 0;
             int num2 = 0;
 
-            while (num1 < 10) // just a while loop that will print 
+            while (num1 < 10) // while loop that as long as the num1 var is less than 10 add 1 to num1 then stop at 9
             {
                 Console.WriteLine(num1);
                 num1++;
             }
 
-            while (num2 <= 25)
+            while (num2 <= 25) // while loop that says add 1 to num2 until it equals 25 and then stop
             {
                 Console.WriteLine(num2);
                 num2++;
