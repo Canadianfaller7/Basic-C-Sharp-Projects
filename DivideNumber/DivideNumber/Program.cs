@@ -16,9 +16,9 @@ namespace DivideNumber
                 Console.WriteLine("Input a number to divide by each number inside my list:\n");
                 int usrNum = Convert.ToInt32(Console.ReadLine()); // we store the users input as an int(whole number)
 
-                foreach (decimal i in numbers) // here I am making i a float so we can get a decimal if user inputs a number that won't show whole numbers
+                foreach (decimal i in numbers) // here I am making i a decimal so we can get a decimal if user inputs a number that won't show whole numbers
                 {
-                    decimal divideI = i / usrNum; // make this a float to get decimals. Take our i after being iterated and divide it by the users number
+                    decimal divideI = i / usrNum; // make this a decimal to get decimals. Take our i after being iterated and divide it by the users number
                     Console.WriteLine($"\n{i} divided by {usrNum} equals: {divideI}"); // print to the console what is happening
                 }
             }
