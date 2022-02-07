@@ -1,0 +1,8 @@
+D:\GitHub\Basic-C-Sharp-Projects\DivideNumber\DivideNumber\bin\Debug\DivideNumber.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\DivideNumber\DivideNumber\bin\Debug\DivideNumber.exe
+D:\GitHub\Basic-C-Sharp-Projects\DivideNumber\DivideNumber\bin\Debug\DivideNumber.pdb
+D:\GitHub\Basic-C-Sharp-Projects\DivideNumber\DivideNumber\obj\Debug\DivideNumber.csproj.AssemblyReference.cache
+D:\GitHub\Basic-C-Sharp-Projects\DivideNumber\DivideNumber\obj\Debug\DivideNumber.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\DivideNumber\DivideNumber\obj\Debug\DivideNumber.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\DivideNumber\DivideNumber\obj\Debug\DivideNumber.exe
+D:\GitHub\Basic-C-Sharp-Projects\DivideNumber\DivideNumber\obj\Debug\DivideNumber.pdb
