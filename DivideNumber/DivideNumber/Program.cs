@@ -34,12 +34,13 @@ namespace DivideNumber
             {
                 Console.WriteLine(ex.Message);
             }
-            finally
+            finally // this will print after an error has been caught and will then move to the next part of our program
             {
                 Console.WriteLine("\nThe code ran and caught an error.");
                 Console.ReadLine();
             }
-            Console.WriteLine("\nThe code has ran through the try/catch and has now exited the try/catch block.");
+            // this tells us that we have ran through the try/catch block and now exited it and will now end the program
+            Console.WriteLine("\nThe code has now ran through the try/catch and has now exited the try/catch block."); 
             Console.ReadLine();
         }
     }
