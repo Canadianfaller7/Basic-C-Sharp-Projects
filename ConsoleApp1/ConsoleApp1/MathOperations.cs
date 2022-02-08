@@ -24,7 +24,7 @@ namespace ConsoleApp1
             int multiplyNumbers = number2 * num;
             return multiplyNumbers;
         }
-        public static decimal divideNumber(decimal number3) // same as above but divide the numbers. Made it a float to get decimals  and not just zero
+        public static decimal divideNumber(decimal number3) // same as above but divide the numbers. Made it a decimal to get decimals and so user can't divide by zero
         {
             int num = 2;
             decimal divideNumbers = num / number3;
