@@ -29,7 +29,7 @@ namespace ConsoleApp1
                 decimal divideResult = MathOperations.divideNumber(usrNumb); // we use a decimal to get a decimal number but also so user can't divide by 0
                 Console.WriteLine($"\nYour number {usrNumb} divided by 2 equals: {divideResult}");
             }
-            catch (FormatException ex) // these are the errors we will print to the console of something happens that shouldn't have
+            catch (FormatException ex) // these are the errors we will print to the console of something happens that shouldn't have-------------------
             {
                 Console.WriteLine("\nPlease put in a whole number.");
             }
