@@ -1,0 +1,8 @@
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.AssemblyReference.cache
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
