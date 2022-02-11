@@ -5,3 +5,4 @@ D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp7\ConsoleApp7\obj\Debug\ConsoleApp7.c
 D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp7\ConsoleApp7\obj\Debug\ConsoleApp7.csproj.CoreCompileInputs.cache
 D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp7\ConsoleApp7\obj\Debug\ConsoleApp7.exe
 D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp7\ConsoleApp7\obj\Debug\ConsoleApp7.pdb
+D:\GitHub\Basic-C-Sharp-Projects\ConsoleApp7\ConsoleApp7\obj\Debug\ConsoleApp7.csproj.AssemblyReference.cache
