@@ -10,11 +10,8 @@ namespace BlackJack
     {
         static void Main(string[] args) // this is our main method(function inside the class and when called will do the stuff we put inside it)
         {
-
-
-            Deck deck = new Deck(); // this is our object made from our Deck class called deck and should already have 52 cards in it from our loop
-                                    // inside the class we made
-
+            
+            Deck deck = new Deck(); // this is our object made from our Deck class called deck and should already have 52 cards in it from our loop inside the class we made
             deck.Shuffle(4); // this is easy to read, it uses the object we made above and access the method to shuffle the cards and we pass a parameter of 4 to shuffle cards 4 times
 
             foreach (Card card in deck.Cards) // now we will iterate though  through our classes to get all of our cards

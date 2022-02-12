@@ -18,7 +18,7 @@ namespace ConsoleApp7
         {
             Console.WriteLine("I don't want to work today and just want to code"); // passing in this info to be written to console when method is called.
         }
-        public  static bool operator == (Employee employee1, Employee employee2) // here we are overriding the == operator and passing in 2 parameters of employee's
+        public  static bool operator == (Employee employee1, Employee employee2) // here we are overloadig the == operator and passing in 2 parameters of employee's
         {
             if (employee1.Id == employee2.Id) // we then say if their Id's are equal to return true
             {
@@ -29,7 +29,7 @@ namespace ConsoleApp7
                 return false; // if not return false
             }
         }
-        public static bool operator != (Employee employee1, Employee employee2) // we need to override the not equal operator as well to satisfy the override of the == operator
+        public static bool operator != (Employee employee1, Employee employee2) // we need to overloaded the not equal operator as well to satisfy the override of the == operator
         { 
             return !(employee1 == employee2);  
         }
