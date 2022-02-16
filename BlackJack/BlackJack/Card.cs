@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackJack
 {
-    public class Card
+    public struct Card
     {
         
         /* this is how you make a class, you make it public so it can be accessed anywhere else in the program,
@@ -14,15 +14,20 @@ namespace BlackJack
         is the Suite and Face)*/
         public Suit Suit { get; set; } 
         public Face Face { get; set; }
+
+        public override string ToString() // here we are overriding the ToString() method we used in the Dealer return the actual format we wanted for the cards  
+        {
+            return String.Format("{0} of {1}", Face, Suit);
+        }
     }
-    public enum Suit
+    public enum Suit // enum method of the suits inside a card
     {
         Clubs,
         Diamonds,
         Hearts,
         Spades
     }
-    public enum Face
+    public enum Face // faces(numbers) of the cards
     {
         Two,
         Three,

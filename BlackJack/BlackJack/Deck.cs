@@ -28,7 +28,7 @@ namespace BlackJack
         /* this is a method specific to this class, we aren't returning anything and that is why we have void, but it is accessable from anywhere
          in the program because of the public and it has a parameter of int times =1 which is an option parameter of how many times we might
         want to have the cards shuffled. We then do a for loop to go through the cards and actually get them shuffled*/
-        public void Shuffle(int times = 1)
+        public void Shuffle(int times = 3)
         {
             for (int i = 0; i < times; i++)
             {
