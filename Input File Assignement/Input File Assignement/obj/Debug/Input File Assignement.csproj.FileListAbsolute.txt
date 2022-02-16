@@ -1,0 +1,8 @@
+D:\GitHub\Basic-C-Sharp-Projects\Input File Assignement\Input File Assignement\bin\Debug\Input File Assignement.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\Input File Assignement\Input File Assignement\bin\Debug\Input File Assignement.exe
+D:\GitHub\Basic-C-Sharp-Projects\Input File Assignement\Input File Assignement\bin\Debug\Input File Assignement.pdb
+D:\GitHub\Basic-C-Sharp-Projects\Input File Assignement\Input File Assignement\obj\Debug\Input File Assignement.csproj.AssemblyReference.cache
+D:\GitHub\Basic-C-Sharp-Projects\Input File Assignement\Input File Assignement\obj\Debug\Input File Assignement.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\Input File Assignement\Input File Assignement\obj\Debug\Input File Assignement.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\Input File Assignement\Input File Assignement\obj\Debug\Input File Assignement.exe
+D:\GitHub\Basic-C-Sharp-Projects\Input File Assignement\Input File Assignement\obj\Debug\Input File Assignement.pdb
