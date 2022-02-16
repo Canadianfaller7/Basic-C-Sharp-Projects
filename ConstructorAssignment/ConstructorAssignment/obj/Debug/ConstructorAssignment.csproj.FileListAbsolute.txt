@@ -1,0 +1,8 @@
+D:\GitHub\Basic-C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\bin\Debug\ConstructorAssignment.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\bin\Debug\ConstructorAssignment.exe
+D:\GitHub\Basic-C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\bin\Debug\ConstructorAssignment.pdb
+D:\GitHub\Basic-C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.csproj.AssemblyReference.cache
+D:\GitHub\Basic-C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Basic-C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.exe
+D:\GitHub\Basic-C-Sharp-Projects\ConstructorAssignment\ConstructorAssignment\obj\Debug\ConstructorAssignment.pdb
