@@ -25,7 +25,7 @@ namespace TryCatchAssignment
                     DateTime now = DateTime.Now;
                     if (!validAnswer)
                     {
-                        Console.WriteLine("\nEnter in your actual age.");
+                        Console.WriteLine("\nEnter your age as a whole number only.");
                     }
                     else if (age <= 0)
                     {
@@ -36,10 +36,6 @@ namespace TryCatchAssignment
                         Console.WriteLine($"\nBased on the age you entered, we caclulated that you were born this year: {now.Year - age}");
                     }
 
-                }
-                catch (FormatException)
-                {
-                    Console.WriteLine("\nEnter in a whole number only.");
                 }
                 catch (ArgumentException)
                 {
