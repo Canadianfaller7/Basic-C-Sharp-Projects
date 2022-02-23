@@ -14,6 +14,8 @@ namespace CarInsurance.Controllers
     {
         private InsuranceEntities db = new InsuranceEntities();
 
+        List<Insuree> insurees = new List<Insuree>();
+
         // GET: Insuree
         public ActionResult Index()
         {
@@ -56,50 +58,50 @@ namespace CarInsurance.Controllers
             }
             return View(insuree);
         }
-        public decimal monthlyQuote(Insuree insuree)
+        public decimal MonthlyQuote(Insuree insuree)
         {
             decimal monthlyCost = insuree.Quote = 50;
             
             if (insuree.DateOfBirth < new DateTime(2004))
             {
-                decimal belowEighteen = monthlyCost + 100;
+                monthlyCost += 100;
             }
             if (insuree.DateOfBirth >= new DateTime(2003) && insuree.DateOfBirth <= new DateTime(1997))
             {
-                decimal inBetweenTwentyFive = monthlyCost + 50;
+                monthlyCost += 50;
             }
             if (insuree.DateOfBirth >= new DateTime(1997))
             {
-                decimal aboveTwentyFive = monthlyCost + 25;
+                monthlyCost += monthlyCost + 25;
             }
             if (insuree.CarYear < 2000)
             {
-                decimal carYearBelow2000 = monthlyCost + 25;
+                monthlyCost += monthlyCost + 25;
             }
             if (insuree.CarYear > 2015)
             {
-                decimal carYearAfter2015 = monthlyCost + 25;
+                monthlyCost += monthlyCost + 25;
             }
             if (insuree.CarMake == "Porsche")
             {
-                decimal isPorsche = monthlyCost + 25;
+                monthlyCost += monthlyCost + 25;
             }
             if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
             {
-                decimal isCarrera = monthlyCost + 25;
+                monthlyCost += monthlyCost + 25;
             }
             if (insuree.DUI == true)
             {
-                decimal hadDUI = (monthlyCost * 1/4) + monthlyCost;
+                monthlyCost += (monthlyCost * 1/4) + monthlyCost;
             }
             if (insuree.CoverageType == true)
             {
-                decimal fullCoverage = (monthlyCost * 1/2) + monthlyCost;
+                monthlyCost += (monthlyCost * 1/2) + monthlyCost;
             }
             if (insuree.SpeedingTickets > 0)
             {
                 int multiply = insuree.SpeedingTickets * 10;
-                decimal speeding = monthlyCost + multiply;
+                monthlyCost += monthlyCost + multiply;
             }
 
             return monthlyCost;
@@ -170,6 +172,21 @@ namespace CarInsurance.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+        public ActionResult Admin()
+        {
+           
+
+            foreach (var insuredPeople in insurees)
+            {
+                var insuredPerson = new Insuree();
+                insuredPerson.Quote = insuredPeople.Quote;
+                insuredPerson.FirstName = insuredPeople.FirstName;
+                insuredPeople.LastName = insuredPeople.LastName;
+                insuredPerson.EmailAddress = insuredPeople.EmailAddress;
+                insurees.Add(insuredPerson);
+            }
+            return View(insurees);
         }
     }
 }
