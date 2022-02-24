@@ -1,0 +1,12 @@
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\obj\Debug\CodeFirstNewDatabase.csproj.AssemblyReference.cache
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\obj\Debug\CodeFirstNewDatabase.csproj.CoreCompileInputs.cache
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\bin\Debug\CodeFirstNewDatabase.exe.config
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\bin\Debug\CodeFirstNewDatabase.exe
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\bin\Debug\CodeFirstNewDatabase.pdb
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\bin\Debug\EntityFramework.dll
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\bin\Debug\EntityFramework.xml
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\obj\Debug\CodeFirstNewDatabase.csproj.CopyComplete
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\obj\Debug\CodeFirstNewDatabase.exe
+D:\GitHub\Basic-C-Sharp-Projects\CodeFirstNewDatabase\CodeFirstNewDatabase\obj\Debug\CodeFirstNewDatabase.pdb
