@@ -48,7 +48,7 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType")] Insuree insuree)
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
         {
             if (ModelState.IsValid)
             {
@@ -162,7 +162,7 @@ namespace CarInsurance.Controllers
             Insuree insuree = db.Insurees.Find(id);
             db.Insurees.Remove(insuree);
             db.SaveChanges();
-            return RedirectToAction("Admin");
+            return RedirectToAction("Index");
         }
 
         protected override void Dispose(bool disposing)
