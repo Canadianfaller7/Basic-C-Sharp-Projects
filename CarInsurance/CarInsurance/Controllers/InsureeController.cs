@@ -48,64 +48,63 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType")] Insuree insuree)
         {
             if (ModelState.IsValid)
             {
+                insuree.Quote = MonthlyQuote(insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Admin");
             }
             return View(insuree);
         }
         public decimal MonthlyQuote(Insuree insuree)
         {
-            decimal monthlyCost = insuree.Quote = 50;
+            insuree.Quote = 50.0m;
             
-            if (insuree.DateOfBirth < new DateTime(2004))
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year < 18)
             {
-                monthlyCost += 100;
+                insuree.Quote += 100;
             }
-            if (insuree.DateOfBirth >= new DateTime(2003) && insuree.DateOfBirth <= new DateTime(1997))
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year > 18 && DateTime.Now.Year - insuree.DateOfBirth.Year <= 25)
             {
-                monthlyCost += 50;
+                insuree.Quote += 50;
             }
-            if (insuree.DateOfBirth >= new DateTime(1997))
+            if (insuree.DateOfBirth.Year - DateTime.Now.Year > 25 )
             {
-                monthlyCost += monthlyCost + 25;
+                insuree.Quote += 25;
             }
-            if (insuree.CarYear < 2000)
+            if (insuree.CarYear <= 2000)
             {
-                monthlyCost += monthlyCost + 25;
+                insuree.Quote += 25;
             }
-            if (insuree.CarYear > 2015)
+            if (insuree.CarYear >= 2015)
             {
-                monthlyCost += monthlyCost + 25;
+                insuree.Quote += 25;
             }
             if (insuree.CarMake == "Porsche")
             {
-                monthlyCost += monthlyCost + 25;
+                insuree.Quote += 25;
             }
             if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
             {
-                monthlyCost += monthlyCost + 25;
+                insuree.Quote += 25;
             }
             if (insuree.DUI == true)
             {
-                monthlyCost += (monthlyCost * 1/4) + monthlyCost;
+                insuree.Quote += (insuree.Quote * 1/4);
             }
             if (insuree.CoverageType == true)
             {
-                monthlyCost += (monthlyCost * 1/2) + monthlyCost;
-            }
+                insuree.Quote += (insuree.Quote * 1/2);
+            }  
             if (insuree.SpeedingTickets > 0)
             {
                 int multiply = insuree.SpeedingTickets * 10;
-                monthlyCost += monthlyCost + multiply;
+                    insuree.Quote += multiply;
             }
-
-            return monthlyCost;
-            
+            return insuree.Quote;
         }
 
         // GET: Insuree/Edit/5
@@ -132,9 +131,10 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                insuree.Quote = MonthlyQuote(insuree);
                 db.Entry(insuree).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Admin");
             }
             return View(insuree);
         }
@@ -162,7 +162,7 @@ namespace CarInsurance.Controllers
             Insuree insuree = db.Insurees.Find(id);
             db.Insurees.Remove(insuree);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Admin");
         }
 
         protected override void Dispose(bool disposing)
@@ -173,20 +173,18 @@ namespace CarInsurance.Controllers
             }
             base.Dispose(disposing);
         }
-        public ActionResult Admin()
+        public ActionResult Admin(Insuree insuree)
         {
-           
-
             foreach (var insuredPeople in insurees)
             {
-                var insuredPerson = new Insuree();
-                insuredPerson.Quote = insuredPeople.Quote;
-                insuredPerson.FirstName = insuredPeople.FirstName;
+                insuredPeople.Quote = insuredPeople.Quote;
+                insuredPeople.FirstName = insuredPeople.FirstName;
                 insuredPeople.LastName = insuredPeople.LastName;
-                insuredPerson.EmailAddress = insuredPeople.EmailAddress;
-                insurees.Add(insuredPerson);
+                insuredPeople.EmailAddress = insuredPeople.EmailAddress;
+                insurees.Add(insuredPeople);
             }
-            return View(insurees);
+            return View(db.Insurees.ToList());
+            //return View(insurees);
         }
     }
 }
